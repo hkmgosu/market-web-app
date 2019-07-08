@@ -1,0 +1,40 @@
+{
+  "name": "market",
+  "version": "1.0.0",
+  "description": "register box market ui",
+  "dependencies": {
+    "@material-ui/core": "latest",
+    "@material-ui/styles": "latest",
+    "@material-ui/icons": "latest",
+    "clsx": "latest",
+    "next": "latest",
+    "prop-types": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build & next export",
+    "electron-dev": "electron electron.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hkmgosu/market-web-app.git"
+  },
+  "keywords": [
+    "react",
+    "nodejs",
+    "nextjs"
+  ],
+  "author": "hkmgosu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hkmgosu/market-web-app/issues"
+  },
+  "homepage": "https://github.com/hkmgosu/market-web-app#readme",
+  "devDependencies": {
+    "electron": "^5.0.6"
+  }
+}

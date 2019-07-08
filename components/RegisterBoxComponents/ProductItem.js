@@ -1,0 +1,44 @@
+import React from "react";
+import { makeStyles } from "@material-ui/core/styles";
+import Card from "@material-ui/core/Card";
+import CardActionArea from "@material-ui/core/CardActionArea";
+import CardActions from "@material-ui/core/CardActions";
+import CardContent from "@material-ui/core/CardContent";
+import CardMedia from "@material-ui/core/CardMedia";
+import Button from "@material-ui/core/Button";
+import Typography from "@material-ui/core/Typography";
+
+const useStyles = makeStyles({
+  card: {
+    width: 390
+  },
+  media: {
+    height: 460
+  }
+});
+
+export default function MediaCard() {
+  const classes = useStyles();
+
+  return (
+    <Card className={classes.card}>
+      <CardActionArea>
+        <CardMedia
+          className={classes.media}
+          image="/static/images/products/bebida.webp"
+          title="Bebida Light 44"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="h2">
+            Bebida Light 44
+          </Typography>
+          <Typography variant="body2" color="textSecondary" component="p">
+            This impressive Bebida is a perfect party dish and a fun meal to
+            cook together with your guests. Add 1 cup of frozen peas along with
+            the mussels, if you like.
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+    </Card>
+  );
+}
