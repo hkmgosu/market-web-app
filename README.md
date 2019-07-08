@@ -1,4 +1,4 @@
-1280 x 800 live example
+1280 x 800 mvp live example
 
 Aether Register Box UI app [https://aether-grocery-app.firebaseapp.com](https://aether-grocery-app.firebaseapp.com):
 
