@@ -35,6 +35,6 @@
   },
   "homepage": "https://github.com/hkmgosu/market-web-app#readme",
   "devDependencies": {
-    "electron": "^5.0.6"
+    "electron": "^18.3.7"
   }
 }
